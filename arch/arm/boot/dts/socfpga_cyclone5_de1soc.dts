@@ -111,6 +111,7 @@
 	clock-frequency = <100000000>;
 
 	mmc-slot@0 {
+		reg = <0>;
 		compatible = "mmc-spi-slot";
 		spi-max-frequency = <50000000>;
 		voltage-ranges = <3300 3300>;
